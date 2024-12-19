@@ -86,17 +86,15 @@ The platform solves critical issues not addressed by existing donation systems, 
    ```bash
    git@github.com:shayan1068/madadgar.git
    cd madadgar
-  ```
-
 2. **Install Dependencies:**
    ```bash
    npm install --force
-  ```
+
 3. **Install Dependencies:**
    ```bash
    npm install --force
-  ```
+
 Deployment link
 ```blash
 https://madadgar-1.onrender.com/
-```
+
