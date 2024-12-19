@@ -1,0 +1,1263 @@
+.active {
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: underline;
+}
+
+.container-center .login-heading>img {
+    width: 250px;
+    margin-left: -45px;
+}
+
+.container-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem;
+}
+
+.container-center .login-heading {
+    margin-top: 30px;
+}
+
+.login-heading>h1 {
+    margin-top: 10%;
+    color: pink;
+    text-transform: uppercase;
+}
+
+.card-size {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    width: 396px;
+}
+
+.card-size .card-body .input-size {
+    padding: 10px;
+    font-weight: 400;
+}
+
+.card-footer .btn-color {
+    background-color: #00a400;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+}
+
+.card-footer .btn-color:hover {
+    background-color: #ff0000;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+}
+
+.modal-description {
+    display: block;
+}
+
+.card-footer-signup {
+    display: flex;
+    justify-content: center;
+}
+
+.card-footer-signup>Button {
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 50px;
+    text-shadow: none;
+}
+
+.card-footer-signup>Button:hover {
+    background: none;
+    background-color: #ff0000;
+    ;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 50px;
+    text-shadow: none;
+}
+
+.card-section:hover .card-image {
+    opacity: 0.1;
+}
+
+.card-section:hover .cardcheck {
+    display: block;
+    animation: mymove 1s;
+}
+
+.card-section .cardcheck {
+    position: absolute;
+    bottom: 150px;
+    left: 70px;
+    display: none;
+    animation-timing-function: ease;
+    animation-fill-mode: forward;
+    animation-duration: 3s;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 70px;
+    }
+}
+
+.login-side .col-padding {
+    padding: 2rem;
+}
+
+.login-side .col-padding .txt {
+    background-color: #D6F9F4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 1.5rem;
+}
+
+.login-side .btn-style {
+    background-color: #68CBB7;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.login-right {
+    text-align: center;
+    padding: 2rem;
+}
+
+.login-right .text-welcome {
+    color: #68CBB7;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.lineup {
+    border-top: 2px solid #36BB93;
+}
+
+.lineup .items {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.lineup .items .social [class*="fa fa-"] {
+    border-radius: 30px;
+    border: 1px solid #36BB93;
+    color: #36BB93;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lineup .items .social .fa-twitter:hover {
+    background-color: #46c0fb;
+}
+
+.lineup .items .social .fa-facebook:hover {
+    background-color: #46c0fb;
+}
+
+.lineup .items .social .fa-google-plus:hover {
+    background-color: #46c0fb;
+}
+
+.footer-description {
+    color: #36BB93;
+    text-align: center;
+}
+
+.forget-side {
+    display: flex;
+}
+
+.forget-side .forget-pasword {
+    margin-left: 14rem;
+}
+
+.registration-side .col-padding {
+    padding: 2rem;
+}
+
+.registration-side .col-padding .txt {
+    background-color: #D6F9F4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 1rem;
+}
+
+.registration-side .btn-style {
+    background-color: #68CBB7;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.registration-right {
+    text-align: center;
+    padding: 2rem;
+}
+
+.registration-right .text-heading {
+    color: #68CBB7;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.img-side {
+    padding: 6rem;
+}
+
+.img-side .col-img .img-set {
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.img-side .user-details .username {
+    color: #36BB93;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.img-side .user-details .checked {
+    color: #36BB93;
+    font-size: 2rem;
+}
+
+.img-side .user-details .reportuser {
+    padding: 2rem 0;
+}
+
+.img-side .col-img .workstyle {
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 2rem;
+    width: 80%;
+}
+
+.about-heading {
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+.footerBackgroundColor {
+    background: linear-gradient(270deg, #003D2A -100%, #36BB93 100%);
+}
+
+.root {
+    font-size: 62.5%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Arial';
+    padding: 6em 6em;
+
+}
+
+.banner .banner-heading {
+    color: #36BB93;
+    font-weight: 700;
+    font-size: 5.5em;
+    line-height: 1.5em;
+}
+
+.banner .banner-description {
+    color: #36BB93;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.banner .banner-descriptionMore {
+    color: #36BB93;
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 4em;
+}
+
+.rectangle {
+    position: relative;
+    padding: 1em 0;
+}
+
+.rectangle .rectangle-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangle .rectangle-text .text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 5.5em;
+    text-align: center;
+}
+
+.rectangle .group {
+    position: absolute;
+    bottom: 20em;
+    padding: 0 37em;
+}
+
+.rectangle .group .img-setting {
+    width: 20em;
+}
+
+.row-services {
+    padding: 12em;
+}
+
+.row-services .col-services {
+    padding: 0 12em;
+}
+
+.col-services .col-card {
+    text-align: center;
+    background-color: #D6F9F4;
+    padding: 8em 0;
+}
+
+.col-services .job {
+    font-size: 5.5em;
+    font-weight: 600;
+    color: #36BB93;
+}
+
+.col-services .img-padd {
+    padding: 4em 8em;
+}
+
+.col-services .card-btn {
+    background-color: #36BB93;
+    width: 8em;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.col-services .card-textone {
+    font-size: 4.5em;
+    font-weight: 500;
+    color: #36BB93;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.col-services .card-texttwo {
+    font-size: 4.5em;
+    font-weight: 500;
+    color: #36BB93;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.col-services .card-textthree {
+    font-size: 4.5em;
+    font-weight: 500;
+    color: #36BB93;
+    text-align: center;
+}
+
+.col-services .card-textdonationone {
+    font-size: 4.5em;
+    font-weight: 500;
+    color: #36BB93;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.rectangletwo {
+    position: relative;
+}
+
+.rectangletwo .rectangle-texttwo {
+    position: absolute;
+    color: #fff;
+    font-size: 5.5em;
+    font-weight: 700;
+    top: 30%;
+    padding: 1em 4em;
+}
+
+.signin-card {
+    padding: 6em 0;
+
+}
+
+.signin-card .signin-card-text {
+    color: #36BB93;
+    font-size: 3em;
+}
+
+.card-center {
+    padding: 10em;
+}
+
+.signin-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10em;
+    background-color: #F6F3E2;
+    border-radius: 67px;
+}
+
+.signin-card .text {
+    color: #36BB93;
+    font-size: 5.5em;
+    font-weight: 700;
+}
+
+.signin-card .signin-btn {
+    background-color: #36BB93;
+    width: 8em;
+    font-weight: 600;
+}
+
+.signin-card .img-width {
+    width: 35em;
+}
+
+.jobpage-row {
+    background-color: #D6F9F4;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.job-col {
+    padding: 4em 10em;
+}
+
+.job-col .job-btn {
+    background-color: #36BB93;
+    border-radius: 25px;
+}
+
+.job-row-text .job-btn {
+    background-color: #36BB93;
+    border-radius: 25px;
+    width: 10em;
+    text-align: center;
+}
+
+.jobapost-col {
+    padding: 4em 10em;
+
+}
+
+.jobapost-col .job-btn {
+    background-color: #36BB93;
+}
+
+.jobapost-groupbtn {
+    display: flex;
+    justify-content: end;
+}
+
+.job-row-text {
+    padding: 0 10em;
+}
+
+.job-row-text .job-banner-text {
+    color: #36BB93;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 600;
+    padding: 1em;
+}
+
+.job-row-text .job-banner-text2 {
+    color: #36BB93;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+    padding: 1em;
+}
+
+.container-area {
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-area .container-text {
+    text-align: center;
+    padding: 4em;
+}
+
+.container-offer {
+    padding: 4em 10em;
+    text-align: center;
+}
+
+.container-offer .container-text-offer {
+    color: #36BB93;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.container-offer .offer-btn {
+    background-color: #36BB93;
+    margin-top: 2em;
+}
+
+.offer-img {
+    padding: 4em 10em;
+    text-align: center;
+}
+
+.container-offer2 .container-text-offer {
+    color: #36BB93;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.container-offer2 .offer-btn {
+    background-color: #36BB93;
+    margin-top: 2em;
+}
+
+.containerpostajob-area {
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.25);
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.containerpostajob-area .postajob-heading-area {
+    background-color: #36BB93;
+}
+
+.containerpostajob-area .postajob-heading {
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.requirements .sub-heading {
+    font-size: 2.3em;
+    color: #36BB93;
+    padding: 2em 3em;
+    font-weight: 700;
+}
+
+.requirements .sub-heading2 {
+    font-size: 2.3em;
+    color: #36BB93;
+    font-weight: 700;
+    margin-left: -1.5em;
+    padding: 2em 0em;
+}
+
+.requirements .sub-headingfoj {
+    font-size: 2.3em;
+    color: #36BB93;
+    font-weight: 700;
+    margin-left: -1.5em;
+    padding: 2em 3em;
+}
+
+.form-center {
+    padding: 0 10em;
+}
+
+.form-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-align: justify;
+}
+
+.form-set .col-age {
+    width: 6em;
+    background: #D6F9F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    border: none;
+}
+
+.form-set .col-age:focus {
+    width: 10em;
+    border: none;
+    background: #D6F9F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.form-set .col-text {
+    background: #D6F9F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    border: none;
+    width: 20em;
+}
+
+.form-set .col-text:focus {
+    background: #D6F9F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    border: none;
+    width: 25em;
+}
+
+.textarea-container {
+    position: relative;
+    padding: 4em 0;
+}
+
+.textarea-container textarea {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #36BB93;
+    padding-left: 3.5em;
+    padding-top: 4em;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.textarea-container .heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.textarea-container .button {
+    position: absolute;
+    top: 75%;
+    right: 0;
+    border: none;
+    font-size: 1.5em;
+    color: #36BB93;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.textarea-container .button::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.textarea-container .button::before {
+    content: "Upload Photo of work place";
+    padding: 1.5em;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(253, 253, 253, 0.25);
+    cursor: pointer;
+}
+
+.col-postajobbtn {
+    display: flex;
+    justify-content: end;
+    padding: 2em;
+}
+
+.post-btn {
+    background-color: #36BB93;
+    padding: 0 3em;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.card-paddfoj {
+    padding: 2em 10em;
+}
+
+.card-view {
+    background-color: #36BB93;
+    border-radius: 10px;
+    padding: 6em 10em;
+    z-index: 1;
+
+}
+
+.card-view .heading {
+    color: #fff;
+}
+
+.card-view .card-text {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.card-view .card-btn {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #36BB93;
+    font-weight: bold;
+}
+
+.toggle-card-bg {
+    background-color: #D6F9F4;
+    padding: 0;
+    margin-top: -2em;
+}
+
+.foj-conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10em;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.foj-footer {
+    padding: 2em 0;
+}
+
+.foj-footer .foj-footer-text {
+    color: #36BB93;
+}
+
+.foj-footer .foj-footer-btn {
+    background-color: #36BB93;
+    border-radius: 10px;
+}
+
+.padd-modal {
+    padding: 1em 2em;
+}
+
+.padd-modal .col-text {
+    background: #D6F9F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0.5em 0;
+    border: none;
+}
+
+.padd-modal .button {
+    border: none;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #36BB93;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.padd-modal .bg-textarea {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.send-btn {
+    background-color: #36BB93;
+    padding: 0 2em;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.img-padd {
+    padding: 0 6em;
+}
+
+.request .header-top {
+    padding: 4em;
+    font-weight: bold;
+}
+
+.card-request {
+    margin-bottom: 2em;
+    box-shadow: -6px 4px 4px rgba(0, 0, 0, 0.25), 6px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+}
+
+.request .img-rounded-circle {
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    background-color: #36BB93;
+}
+
+.request .request-name {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.request .request-username {
+    font-size: 2em;
+}
+
+.request .request-type {
+    font-size: 2em;
+}
+
+.request .request-btn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.request .request-btnaccept {
+    background-color: #36BB93;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+}
+
+.request .request-btnview {
+    background-color: #36BB93;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+}
+
+.notification {
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+
+.notification .badge {
+    position: absolute;
+    top: 2.5em;
+    left: 53%;
+    border-radius: 50%;
+    background: #36BB93;
+    color: #36BB93;
+    box-shadow: 0 0 10px rgba(255 255 255);
+}
+
+.row-profile {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+}
+
+.editProfile-profile-update-side .profileUploadContainer {
+    background-color: #D6F9F4;
+    border-radius: 4em;
+}
+
+.editProfile-profile-update-side .profileUploadContainer .username {
+    color: #36BB93;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.editProfile-profile-update-side .profileUploadContainer .img-set {
+    border-radius: 4em;
+}
+
+.editProfile-profile-update-side .profileUploadContainer .uploadBtn {
+    background-color: #36BB93;
+    text-align: center;
+}
+
+.editProfile-profile-update-side .profileUploadContainer .note_upload {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 2em;
+    border-radius: 0.5em;
+}
+
+.profilenexttab .profileSideTab {
+    background-color: #D6F9F4;
+}
+
+.profilenexttab .editTab {
+    background-color: #91DCCE;
+}
+
+.profilenexttab .edit-text-col {
+    position: relative;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 4em;
+    padding-bottom: 6em;
+}
+
+.profilenexttab .edit-text-col .edit-text {
+    color: #FFFFFF;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.profilenexttab .edit-text-col .editbtn {
+    position: absolute;
+    left: 2em;
+}
+
+.profilenexttab .edit-text-col .editbtn .btn-user {
+    background-color: #91DCCE;
+}
+
+.profilenexttab .edit-text-col .editbtn .btn-user:focus {
+    border-bottom: 1px solid #ffff;
+}
+
+.form-group .label-text {
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.form-group .btn-submit-profile {
+    background-color: #36BB93;
+    border-radius: 1em;
+}
+
+#chat3 {
+    /* height: 100vh; */
+    border-bottom: 3px solid #36BB93;
+    margin: 1em;
+}
+
+#chat3 .form-control {
+    border-color: transparent;
+}
+
+#chat3 .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.badge-dot {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-left: 2.9rem;
+    margin-top: -0.75rem;
+}
+
+.chat-side {
+    position: relative;
+    /* height: 100vh; */
+}
+
+.chat-side .input-side {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}
+.chat-side .form-control{
+    background-color: #D6F9F4;
+}
+
+.messangerProfileSide {
+    border: 3px solid #36BB93;
+    background-color: #D6F9F4;
+}
+
+.messangerProfileSide .link {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.messangerProfileSide .userName {
+    color: #36BB93;
+    font-weight: bold;
+}
+
+.headerMessanger {
+    background-color: #D6F9F4;
+    margin-top: 0.5em;
+}
+
+.headerMessanger .messangerHeader {
+    display: flex;
+    align-items: center;
+}
+
+.headerMessanger .headerUserName {
+    margin-left: 1em;
+    font-size: 1.5em;
+    color: #36BB93;
+    font-weight: bold;
+}
+.sideMessageBar{
+    display: none;
+}
+.notificationDev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notificationDev .notificationAboutservice{
+    background-color: gray;
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 1em;
+    border-radius: 25px;
+    text-align: center;
+}
+.file-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+audio::-webkit-media-controls-volume-slider {
+    display: none;
+  }
+  audio::-webkit-media-controls-mute-button {
+    display: none;
+  }
+ .audioPlayer{
+    background-color: transparent;
+    border: none;
+ }
+ .messanagerSendButton{
+    background-color: #36BB93;
+    padding: 1em;
+    width: 4em;
+    border-radius: 50%;
+ }
+ .usernameInput{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+ }
+ .editPage{
+    background-color: #D6F9F4;
+    border-bottom: 2px solid #36BB93;
+ }
+ .editPage .editHeading{
+    color: #36BB93;
+    text-align: center;
+ }
+ .BottomPage{
+    background-color: #D6F9F4;
+ }
+ .BottomPage .text-edit{
+    font-size:2em;
+    color: #36BB93;
+    font-weight:600;
+ }
+ .BottomPage .bg-textarea{
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-size:2em;
+    color: #fff;
+ }
+ .BottomPage .edit-btn{
+    background-color: #36BB93;
+    width: 10em;
+ }
+ .BottomPage .edit-close{
+    background-color: red;
+    width: 10em;
+    margin-left: 1em;
+ }
+ .forgetheading{
+    color: #36BB93;
+ }
+ .backGroudBanner{
+   background-color: #D6F9F4;
+   margin-top: 0.5em;
+ }
+ .backGroudBanner .bannertext{
+    color: #36BB93;
+    font-size: 3.5em;
+    font-weight: 700;
+    padding: 3em;
+    text-align: center;
+ }
+@media only screen and (max-width: 1243px) {
+    .display {
+        display: none;
+    }
+}
+.bg-color{
+    background-color: #36BB93;
+}
+@media only screen and (max-width: 1114px) {
+    .rectangletwo .rectangle-texttwo {
+        font-size: 3.5em;
+    }
+
+    .profilenexttab {
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .profileMessanger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .root {
+        font-size: 50%;
+    }
+
+    .row-services .col-services {
+        padding: 0;
+    }
+
+    .rectangletwo {
+        background-color: #36BB93;
+        border-radius: 27px;
+    }
+
+    .rectangletwo .rectangle-texttwo {
+        position: static;
+        padding: 2em 2em;
+        text-align: center;
+    }
+
+    .img-rectangle {
+        display: none;
+    }
+
+    .job-col .job-btn {
+        background-color: #36BB93;
+        width: 100%;
+    }
+
+    .job-row-text .job-banner-text {
+        font-size: 3em;
+        padding: 0;
+    }
+
+    .job-row-text .job-banner-text2 {
+        font-size: 2em;
+        padding: 0;
+    }
+
+    .jobapost-col .jobapost-groupbtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .jobapost-col .job-btn {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .form-center {
+        padding: 0;
+        padding: 0 5em;
+    }
+
+    .requirements .sub-heading {
+        text-align: center;
+    }
+
+    .requirements .sub-heading2 {
+        text-align: center;
+    }
+
+    .textarea-container .button {
+        position: absolute;
+        left: 2%;
+    }
+
+    .col-postajobbtn {
+        display: flex;
+        justify-content: center;
+        padding: 2em;
+    }
+
+    .card-view {
+        padding: 2em;
+    }
+
+    .card-paddfoj {
+        padding: 0;
+    }
+
+    .foj-conatiner {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 2em;
+        text-align: center;
+    }
+
+    .foj-footer .foj-footer-btn {
+        width: 100%;
+    }
+
+    .notification {
+        display: none;
+    }
+
+    .profilenexttab {
+        margin-top: 2em;
+    }
+
+    .profilenexttab .edit-text-col {
+        padding-bottom: 10em;
+    }
+    .sideMessageBar{
+        display: block;
+    }
+}
